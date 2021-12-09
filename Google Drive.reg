@@ -53,3 +53,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\CLSID\{CFE8B367-77A7-41D7-9C90-75D16D7DC6B6}\Instance\InitPropertyBag]
 "Attributes"=dword:00000011
 "TargetFolderPath"="G:\\My Drive"
+
+; Hide the 'G' drive in Windows Explorer
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoDrives"=dword:00000040
